@@ -94,7 +94,7 @@ function showCocktailInfo(cocktailId) {
     
     let ingredientsList = "";
     cocktail.ingredients.forEach(ingredient => {
-        ingredientsList += <li>${ingredient}</li>;
+        ingredientsList += `<li>${ingredient}</li>`;
     });
     
     usercard.innerHTML = `
